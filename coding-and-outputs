@@ -1,0 +1,126 @@
+💡 Purpose of the Branch
+
+This branch showcases my practical ability to apply Python programming in security-related contexts, focusing on risk modelling, threat logging, incident response simulation, and log analysis. These exercises complement the theoretical understanding of frameworks such as ISO 31000, NIST SP 800-30, and Cyber Essentials, bridging academic knowledge with real-world SME cybersecurity solutions.
+
+🧩 Python Example 1: Threat Risk Matrix Generator
+🔢 Code
+threats = ["Phishing", "Malware", "DDoS", "Privilege Escalation"]
+impact_scores = {"Low": 1, "Medium": 2, "High": 3}
+likelihood_scores = {"Rare": 1, "Possible": 2, "Likely": 3}
+
+print("=== Threat Risk Matrix ===")
+for threat in threats:
+    for impact in impact_scores:
+        for likelihood in likelihood_scores:
+            risk = impact_scores[impact] * likelihood_scores[likelihood]
+            print(f"{threat} | Impact: {impact} | Likelihood: {likelihood} | Risk Score: {risk}")
+
+📤 Sample Output
+Phishing | Impact: Low | Likelihood: Rare | Risk Score: 1  
+Phishing | Impact: Low | Likelihood: Possible | Risk Score: 2  
+Phishing | Impact: Low | Likelihood: Likely | Risk Score: 3  
+...
+
+🧠 Reflection
+
+This simulation supports qualitative risk assessments by allowing risk analysts to model various threat scenarios using custom matrices. It aligns with risk identification work completed in our group report for Pampered Pets Ltd and visualises threat trends to facilitate security planning.
+
+📁 Python Example 2: Incident Detection Alert System
+🔢 Code
+from datetime import datetime
+
+def detect_incident(threat, severity):
+    timestamp = datetime.now()
+    alert = f"[{timestamp}] ALERT: {threat.upper()} detected with {severity} severity."
+    with open("alerts.txt", "a") as file:
+        file.write(alert + "\n")
+    print(alert)
+
+# Example threat simulation
+detect_incident("DDoS Attack", "High")
+
+📤 Output in Console and File
+[2025-10-20 20:00:03.481010] ALERT: DDOS ATTACK detected with High severity.
+
+🧠 Reflection
+
+This code represents a simple incident response automation. Real-world SOCs (Security Operations Centres) log threats in this manner. It echoes the risk recommendations I made in the Executive Summary for improving log analysis and threat tracking.
+
+🧮 Python Example 3: Log Parser for Anomaly Detection
+🔢 Code
+def search_logs(keyword):
+    with open("alerts.txt", "r") as file:
+        for line in file:
+            if keyword.lower() in line.lower():
+                print(f"Found: {line.strip()}")
+
+search_logs("DDoS")
+
+📤 Output
+Found: [2025-10-20 20:00:03.481010] ALERT: DDOS ATTACK detected with High severity.
+
+🧠 Reflection
+
+This function mimics log correlation used in SIEM tools (e.g., Splunk, Wazuh). It allows teams to quickly identify repeated attack patterns. I learned how regular expressions and keyword filtering can streamline audit trails for security analysts, especially in SME environments with limited resources.
+
+🧪 Python Example 4: Simple Authentication Validator
+🔢 Code
+user_credentials = {"admin": "pass123", "user": "abc456"}
+
+def login(user, pwd):
+    if user in user_credentials and user_credentials[user] == pwd:
+        print("Access Granted")
+    else:
+        print("Access Denied")
+
+login("admin", "pass123")
+
+📤 Output
+Access Granted
+
+🧠 Reflection
+
+While basic, this highlights how credential validation logic works in web applications. Expanding on this, I could implement hashing and salting using bcrypt or hashlib for real-world applications. It reinforces understanding of access control systems, a key control in ISO 27001.
+
+📂 Included Artefacts
+File	Description
+risk_matrix.py	Generates risk scores for different threat combinations
+incident_logger.py	Records simulated threat alerts with timestamps
+log_parser.py	Searches logs for specified attack patterns
+auth_check.py	Tests a basic username-password validation
+alerts.txt	Output log of all simulated incidents
+README.md	Instructions and code explanations
+screenshots/	Folder of terminal output screenshots
+🔐 Relevance to SRM_PCOM7E Learning
+
+This branch is evidence of how I internalised technical concepts discussed in Unit 6 (Risk Identification) and Unit 11 (Security Recommendations). By building hands-on tools aligned with risk analysis principles, I reinforced my grasp on:
+
+Threat modelling
+
+Quantitative risk analysis
+
+Incident response automation
+
+Security controls
+
+📚 References
+
+Bishop, M. (2018). Introduction to Computer Security. Pearson Education.
+
+Stallings, W. (2020). Computer Security: Principles and Practice. Pearson.
+
+Foreman, P. (2019). NIST Cybersecurity Framework: A Pocket Guide. ITGP.
+
+Kim, D. & Solomon, M.G. (2016). Fundamentals of Information Systems Security. Jones & Bartlett Learning.
+
+Andress, J. (2022). Cybersecurity: The Beginner's Guide. Packt Publishing.
+
+Zeltser, L. (2020). Threat Modeling for Security Professionals. SANS Institute.
+
+Grimes, R. (2021). Hacking Multifactor Authentication. Wiley.
+
+Seacord, R.C. (2020). Secure Coding in C and C++. Addison-Wesley.
+
+Scarfone, K. & Mell, P. (2007). Guide to Intrusion Detection and Prevention Systems (IDPS). NIST SP 800-94.
+
+ISO/IEC 27005:2018. Information technology – Security techniques – Information security risk management.
