@@ -1,0 +1,75 @@
+📌 Title: Final Individual Project – Executive Summary
+👤 Author: Ahmad Alsalami
+🗓️ Submission: 13 October 2025
+🗂️ Component: Individual Project (Unit 11)
+📘 Overview
+
+This branch contains the executive summary of my final individual project for the SRM_PCOM7E module. The task required me to identify and evaluate supply chain risks and propose a disaster recovery (DR) strategy and GDPR-compliant response plan for a fictional e-commerce SME. The goal was to ensure business continuity and regulatory compliance while minimising operational downtime.
+
+🧠 What I Did
+🔍 Risk Modelling and Identification
+
+I utilised quantitative and qualitative methods to evaluate the top five risks facing the SME. These included:
+
+Phishing attacks
+
+Ransomware incidents
+
+Cloud service outages (AWS-based)
+
+Third-party data breaches
+
+Weak access controls
+
+Each risk was rated using a likelihood-impact matrix (based on ISO 31000 and NIST SP 800-30). The methodology was documented clearly in the executive summary.
+
+🛡️ Disaster Recovery (DR) Strategy
+
+I proposed a 1-minute RTO/RPO recovery requirement for critical systems, using:
+
+AWS Elastic Disaster Recovery
+
+Multi-region backup replication
+
+DR drills and tabletop exercises
+
+🔐 GDPR Compliance
+
+Included a 12-hour breach notification protocol and outlined:
+
+Data minimisation
+
+Encryption
+
+Role-based access controls
+
+Data Subject Access Rights (DSAR) handling procedures
+
+This ensured the SME would avoid fines and remain compliant with Article 32 of the GDPR.
+
+⚙️ Tools and Frameworks Applied
+Tool/Framework	Purpose
+🔧 ISO 31000	Risk assessment and control
+🛠️ NIST SP 800-30	Threat modelling
+📊 Quantitative Analysis	Risk scoring (e.g., 5x5 matrix)
+🇪🇺 GDPR	Legal and compliance mitigation
+🖥️ Included Artefacts
+
+executive-summary.docx – Final submitted report
+
+risk-matrix.pdf – Risk ranking and scoring visual
+
+dr-plan-outline.txt – Disaster recovery structure
+
+gdpr-checklist.pdf – Privacy control measures
+
+💡 Reflections and Takeaways
+
+Completing this project strengthened my understanding of:
+
+How to apply DR strategies in real-world SME contexts
+
+The intersection of cybersecurity and data protection law
+
+Designing realistic, cost-effective mitigation plans
+It also enhanced my academic writing and report structuring skills for professional presentations.
