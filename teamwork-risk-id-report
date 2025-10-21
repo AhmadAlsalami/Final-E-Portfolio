@@ -1,0 +1,64 @@
+📄 Title: Development Team Project: Risk Identification Report
+👤 Author: Ahmad Alsalami
+🗓️ Submission: 8 September 2025
+Overview
+
+This branch focuses on the group-based risk identification project carried out in Unit 6. The objective was to collaboratively analyse a given scenario (Pampered Pets) and identify key security vulnerabilities using risk management principles. This involved working with team members to create a detailed risk register, applying both qualitative and quantitative assessments of threats, and recommending controls aligned with best practice frameworks.
+
+Key Contributions by Ahmad Alsalami
+✅ Risk Categorisation and Matrix
+
+I was responsible for identifying external risks, such as third-party software vulnerabilities and insecure API integrations. Using ISO/IEC 27005 standards, I classified these risks by likelihood and impact and helped populate the risk matrix. I also participated in discussions to agree on scoring logic for residual risks.
+
+✅ Control Recommendations
+
+I proposed mitigation strategies for risks including:
+
+Enforcing multi-factor authentication (MFA)
+
+Encrypting data in transit and at rest
+
+Performing regular third-party audits
+These were supported by referencing ISO/IEC 27001 Annex A controls and the NIST CSF.
+
+✅ Report Writing and Formatting
+
+I contributed to drafting sections of the report, particularly:
+
+“Identified Threats”
+
+“Risk Register Table”
+
+“Conclusion and Recommendations”
+
+I ensured our output met academic standards, included in-text citations, and followed the Harvard referencing style.
+
+Collaboration Tools and Experience
+
+Microsoft Teams: Used for regular team meetings and document sharing.
+
+Google Docs: Co-editing the live document with tracked changes.
+
+WhatsApp: Daily updates and coordination with team members.
+
+I experienced some coordination challenges early on due to differing time zones and unclear task allocations. However, by mid-week, I proposed a task board that helped us structure our contributions using a RACI matrix (Responsible, Accountable, Consulted, Informed).
+
+Skills Demonstrated
+
+Team coordination and leadership
+
+Risk assessment frameworks (ISO 27005, NIST)
+
+Written communication and document editing
+
+Critical thinking in proposing feasible risk treatments
+
+Supporting Artefact Files (Included in GitHub)
+
+risk-identification-report.docx (main team document)
+
+risk-matrix.xlsx (optional tabulated matrix for visual reference)
+
+team-task-allocation.txt (screenshot or document showing task distribution)
+
+meeting-log.txt (log of online meetings and discussion outcomes)
