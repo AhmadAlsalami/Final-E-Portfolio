@@ -1,0 +1,55 @@
+What?
+
+During the Security and Risk Management (SRM_PCOM7E) module, I engaged in multiple learning activities and assessments designed to enhance my understanding of risk identification, security planning, and technical implementation. The module structure was well-divided into team collaboration (Unit 6: Development Team Project), peer evaluation, and an individual executive summary based on a real-life scenario. My contributions included active participation in group tasks, designing a cybersecurity risk matrix, critically evaluating vulnerabilities in the Pampered Pets case, and producing a GDPR-compliant executive summary using Python for quantitative modelling.
+
+The group project (uploaded as “Development Team Project – Risk Identification Report”) focused on identifying and classifying risks within the Pampered Pets infrastructure. I was responsible for assessing third-party vulnerabilities, such as weaknesses in vendor software integration, and contributed to building the risk matrix. I also co-wrote the recommendation section, suggesting encryption and authentication controls.
+
+In the peer evaluation task (“Updated Peer Evaluation Template”), I provided constructive feedback to my team members and reflected on my leadership and communication performance. My feedback was grounded in real interactions, praising collaborative decision-making but also noting where deadlines were missed and how we improved.
+
+The individual executive summary (“Executive Summary”) was the most technical component, where I used a Python-based modelling approach to simulate breach probability and cost consequences. I applied decision logic and statistical reasoning to model potential GDPR violations and presented recommendations aligned with ISO/IEC 27005 standards.
+
+So What?
+
+This module has significantly impacted both my technical and soft skill development. Firstly, I deepened my understanding of security frameworks such as the CIA triad, NIST Cybersecurity Framework, and GDPR principles. Analysing risks in the Pampered Pets case allowed me to evaluate real-world threats like insecure APIs, insider threats, and misconfigured cloud services—issues I had only read about before.
+
+Working in a team taught me much about collaboration under pressure. While the initial phases lacked coordination, I later took the initiative to organise meetings, assign tasks, and lead discussions on decision-making. This helped improve our group’s output quality and turnaround time. Reflecting through the peer review allowed me to objectively assess my strengths—such as technical contributions and communication—and areas to improve, such as pushing for clearer timelines earlier in the project.
+
+The most transformative element was applying programming in cybersecurity modelling. Writing Python code to represent breach likelihoods and control impacts was a breakthrough moment for me. I used if-else logic, weighted scoring, and scenario simulation, which made abstract threats feel quantifiable. The outputs helped support my recommendations, and for the first time, I saw how coding could support executive-level decision-making. I also gained confidence in documenting code results and integrating them into professional reporting formats.
+
+Additionally, I learned to apply ethical reasoning when dealing with data subjects’ rights under GDPR. My recommendations were not just technical, but human-centric—highlighting transparency, consent, and employee awareness training as key mitigation strategies.
+
+This module also reinforced the importance of resilience planning. I now understand that security is not just about preventing attacks but managing their consequences through contingency planning, response protocols, and continuous improvement loops. This mindset will shape how I approach future risk assessments and system designs.
+
+Now What?
+
+Looking forward, this module has motivated me to deepen my expertise in two core areas: secure software development and risk-based decision modelling. I plan to take short courses on secure coding (e.g., OWASP Top 10, threat modelling using STRIDE) and advance my Python skills by integrating libraries such as Pandas, NumPy, and Scikit-learn for risk analytics.
+
+I will also explore more standards-based approaches such as ISO/IEC 27001 (for ISMS implementation), 27005 (risk management), and COBIT 5 (governance), as I realised the importance of aligning technical recommendations with regulatory and strategic frameworks.
+
+Professionally, I now feel more prepared to lead or contribute to real security risk assessments in my organisation. I will begin by proposing a small-scale audit of third-party vendor systems in our current environment and use the risk matrix template we developed in class as a pilot model.
+
+Moreover, I will aim to document and track risks more rigorously, using tools like Microsoft Excel or lightweight risk management software, incorporating feedback loops. I have also learned the value of clear, visual risk reporting (e.g., heat maps), and I aim to improve my data visualisation skills to better communicate risks to non-technical stakeholders.
+
+Finally, I recognise that cybersecurity is a moving target, and staying current is essential. I have subscribed to newsletters from NIST, ENISA, and the SANS Institute to keep up with evolving threats and countermeasures. Additionally, I aim to earn a professional certification such as CompTIA Security+ or Certified in Risk and Information Systems Control (CRISC) within the next year, to formalise and extend the knowledge gained from this module.
+
+References
+
+Andress, J. (2021). Cybersecurity: The Beginner's Guide. 2nd ed. Packt Publishing.
+
+ISO/IEC 27005:2018. (2018). Information security risk management. International Organization for Standardization.
+
+ENISA. (2022). Threat Landscape 2022. European Union Agency for Cybersecurity.
+
+NIST. (2020). Framework for Improving Critical Infrastructure Cybersecurity. Version 1.1.
+
+Parker, D.B. (2020). Fighting Computer Crime: A New Framework for Protecting Information. Wiley.
+
+Stallings, W. (2023). Effective Cybersecurity: A Guide to Using Best Practices and Standards. Pearson.
+
+Vacca, J.R. (2022). Computer and Information Security Handbook. 4th ed. Elsevier.
+
+Chappell, D. (2018). Python for Data Analysis. O'Reilly Media.
+
+OWASP Foundation. (2023). Top 10 Web Application Security Risks. [Online] Available at: www.owasp.org
+
+Tipton, H. F., & Krause, M. (2021). Information Security Management Handbook. 7th ed. Auerbach Publications.
